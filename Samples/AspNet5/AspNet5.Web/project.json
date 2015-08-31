@@ -4,8 +4,7 @@
 
     "dependencies": {
         "Microsoft.AspNet.Server.IIS": "1.0.0-beta6",
-        "Microsoft.AspNet.Server.WebListener": "1.0.0-beta6",
-        "AspNet5": "1.0.0-*"
+        "Microsoft.AspNet.Server.WebListener": "1.0.0-beta6"
     },
 
     "commands": {
