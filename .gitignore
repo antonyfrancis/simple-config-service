@@ -41,7 +41,7 @@ TestResult.xml
 dlldata.c
 
 # DNX
-#project.lock.json - to avoid System.Net.NetworkInformation reference issue
+project.lock.json
 artifacts/
 
 *_i.c

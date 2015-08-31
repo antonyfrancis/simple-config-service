@@ -13,6 +13,6 @@
     },
 
     "frameworks": {
-        "dotnet": { }
+        "dnxcore50": { }
     }
 }
