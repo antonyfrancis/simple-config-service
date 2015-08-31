@@ -1,5 +1,7 @@
 # Simple Config Service 
 
+   [![antonyfrancis MyGet Build Status](https://www.myget.org/BuildSource/Badge/antonyfrancis?identifier=f19ba8cd-1a87-4550-8801-fe551b4626bd)](https://www.myget.org/) [![Build status](https://ci.appveyor.com/api/projects/status/i4gl0mb5e1bix8yl/branch/master?svg=true)](https://ci.appveyor.com/project/antonyfrancis/simple-config-service/branch/master) 
+
 A microservice to manage configuration in a remote store which can be used by various types of applications. 
 
 ### Goals 
@@ -16,5 +18,4 @@ A microservice to manage configuration in a remote store which can be used by va
   1. AspNet 5 (Coming soon)
   2. NServiceBus  (Coming soon)
 
-   [![antonyfrancis MyGet Build Status](https://www.myget.org/BuildSource/Badge/antonyfrancis?identifier=f19ba8cd-1a87-4550-8801-fe551b4626bd)](https://www.myget.org/) [![Build status](https://ci.appveyor.com/api/projects/status/i4gl0mb5e1bix8yl/branch/master?svg=true)](https://ci.appveyor.com/project/antonyfrancis/simple-config-service/branch/master)
 
