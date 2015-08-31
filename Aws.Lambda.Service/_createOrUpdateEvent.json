@@ -1,0 +1,19 @@
+﻿{
+  "operation": "update",
+  "TableName": "ConfigData",
+  "ApiKey": "Test",
+  "Key": {
+    "Application": "HelloAspNet51",
+    "Key": "World1"
+  },
+  "AttributeUpdates": {
+    "Data": {
+      "Action": "PUT",
+      "Value": {
+        "AppSettings": {
+          "SiteTitle": "Hello from DynamoDo - Updated"
+        }
+      }
+    }
+  }
+}

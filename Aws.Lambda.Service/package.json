@@ -1,0 +1,23 @@
+{
+  "name": "ConfigService",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "_testdriver"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/bauermediaau/bs-geckoboard"
+  },
+  "keywords": [
+    "micro-service",
+    "lambda",
+    "api-gateway"
+  ],
+  "author": "Antony Francis",
+  "license": "GPL",
+  "dependencies": {
+    "aws-sdk": "^2.1.39",
+    "dynamodb-doc": "^1.0.0"
+  }
+}
