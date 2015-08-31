@@ -33,7 +33,7 @@ REM packages\Sake\tools\Sake.exe -I packages\KoreBuild\build -f makefile.shade %
 
 CALL %USERPROFILE%\.dnx\bin\dnvm use default -runtime CLR -x86 || set errorlevel=1
 
-CALL dnu restore || set errorlevel=1
+CALL dnu restore -Source https://www.nuget.org/api/v2/;https://www.myget.org/F/aspnetvnext/ || set errorlevel=1
 CALL dnu build AspNet5 || set errorlevel=1
 CALL dnu pack AspNet5 || set errorlevel=1
 
