@@ -35,5 +35,5 @@ CALL %USERPROFILE%\.dnx\bin\dnvm use default -runtime CLR -x86 || set errorlevel
 
 CALL dnu restore || set errorlevel=1
 CALL dnu build AspNet5 || set errorlevel=1
-
+CALL dnu pack AspNet5 || set errorlevel=1
 
