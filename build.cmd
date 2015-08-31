@@ -16,8 +16,8 @@ copy %CACHED_NUGET% .nuget\nuget.exe > nul
 
 :restore
 IF EXIST packages\KoreBuild goto run
-.nuget\NuGet.exe install KoreBuild -ExcludeVersion -o packages -nocache -pre
-.nuget\NuGet.exe install Sake -version 0.2 -o packages -ExcludeVersion 
+.nuget\NuGet.exe install KoreBuild -ExcludeVersion -o packages -nocache -pre -Source https://www.nuget.org/api/v2/;https://www.myget.org/F/aspnetvnext/
+.nuget\NuGet.exe install Sake -version 0.2 -o packages -ExcludeVersion -Source https://www.nuget.org/api/v2/;https://www.myget.org/F/aspnetvnext/
 
 IF "%SKIP_KRE_INSTALL%"=="1" goto run
 REM CALL packages\KoreBuild\build\dnvm upgrade -runtime CLR -x86 || set errorlevel=1
