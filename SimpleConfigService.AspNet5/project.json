@@ -1,18 +1,21 @@
 {
-    "version": "0.0.1-alpha-*",
-    "description": "AspNet 5 service config source access library",
-    "authors": [ "Antony" ],
-    "tags": [ "" ],
-    "projectUrl": "",
-    "licenseUrl": "",
+	"version": "0.0.1-alpha-*",
+	"description": "AspNet 5 service config source access library",
+	"authors": [ "Antony" ],
+	"tags": [ "" ],
+	"projectUrl": "",
+	"licenseUrl": "",
 
-    "dependencies": {
-        "Newtonsoft.Json": "6.0.8",
-        "Microsoft.Framework.Configuration": "1.0.0-beta8-15514",
-        "Microsoft.NETCore": "5.0.1-beta-23224"
-    },
+	"dependencies": {
+	},
 
-    "frameworks": {
-        "dnxcore50": { }
-    }
+	"frameworks": {
+		"dnxcore50": {
+			"dependencies": {
+				"Newtonsoft.Json": "6.0.8",
+				"Microsoft.Framework.Configuration": "1.0.0-beta8-15514",
+				"Microsoft.NETCore": "5.0.1-beta-23224"
+			}
+		}
+	}
 }

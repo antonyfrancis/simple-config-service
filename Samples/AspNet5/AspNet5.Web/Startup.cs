@@ -4,6 +4,7 @@ using Microsoft.AspNet.Http;
 using Microsoft.Framework.Configuration;
 using Microsoft.Framework.DependencyInjection;
 using Microsoft.Framework.Runtime;
+using SimpleConfigService.AspNet5;
 
 namespace Sample.AspNet5.Web
 {
@@ -14,9 +15,6 @@ namespace Sample.AspNet5.Web
 	    public Startup(IHostingEnvironment env, IApplicationEnvironment appEnv)
 	    {
 			var builder = new ConfigurationBuilder(appEnv.ApplicationBasePath);
-
-			// Load config from config service
-			//builder.Add(new ServiceConfigurationSource());
 
 			Configuration = builder.Build();
 		}
