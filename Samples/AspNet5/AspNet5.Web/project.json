@@ -3,13 +3,6 @@
 	"version": "1.0.0-*",
 
 	"dependencies": {
-		"Microsoft.AspNet.Server.IIS": "1.0.0-beta6",
-		"Microsoft.AspNet.Server.WebListener": "1.0.0-beta6",
-		"Microsoft.AspNet.Mvc": "6.0.0-beta6",
-		"Microsoft.Framework.Configuration.Json": "1.0.0-beta6",
-		"Microsoft.NETCore": "5.0.0",
-		"Microsoft.Framework.Logging.Console": "1.0.0-beta6",
-		"System.Runtime.Serialization.Primitives": "4.0.11-beta-23224"
 	},
 
 	"commands": {
@@ -19,6 +12,16 @@
 	"frameworks": {
 		"dnxcore50": {
 			"dependencies": {
+				"Microsoft.AspNet.Server.IIS": "1.0.0-beta6",
+				"Microsoft.AspNet.Server.WebListener": "1.0.0-beta6",
+				"Microsoft.AspNet.Mvc": "6.0.0-beta6",
+				"Microsoft.Framework.Configuration.Json": "1.0.0-beta6",
+				"Microsoft.NETCore": "5.0.0",
+				"Microsoft.Framework.Logging.Console": "1.0.0-beta6",
+				"System.Runtime.Serialization.Primitives": "4.0.11-beta-23224",
+				"SimpleConfigService.AspNet5": "0.0.1-alpha-*",
+				"Microsoft.Framework.ConfigurationModel": "1.0.0-beta5-11337",
+				"Microsoft.Framework.ConfigurationModel.Json": "1.0.0-beta5-11337"
 			}
 		}
 	},
