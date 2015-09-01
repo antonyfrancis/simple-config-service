@@ -14,7 +14,9 @@
 			"dependencies": {
 				"Newtonsoft.Json": "6.0.8",
 				"Microsoft.Framework.Configuration": "1.0.0-beta6",
-				"Microsoft.NETCore": "5.0.0"
+				"Microsoft.NETCore": "5.0.0",
+				"Microsoft.Framework.ConfigurationModel": "1.0.0-beta5-11337",
+				"Microsoft.Framework.ConfigurationModel.Json": "1.0.0-beta5-11337"
 			}
 		}
 	}
