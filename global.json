@@ -1,8 +1,6 @@
 {
-    "sdk": {
-        "version": "1.0.0-beta6",
-        "runtime": "coreclr",
-        "architecture": "x86"
-    },
-    "projects": [ "." ]
+	"sdk": {
+		"version": "1.0.0-beta6"
+	},
+	"projects": [ "." ]
 }
