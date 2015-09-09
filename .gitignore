@@ -218,3 +218,4 @@ _Pvt_Extensions
 
 # Project specific
 serviceConfigSource.json
+Aws.Lambda.Service/Aws.Lambda.Service.zip
