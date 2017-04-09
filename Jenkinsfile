@@ -15,7 +15,6 @@ pipeline {
       steps {
         input 'Are you sure?'
         echo 'Deploying To Production'
-        waitUntil()
       }
     }
     stage('Complete') {
